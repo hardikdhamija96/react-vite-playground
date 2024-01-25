@@ -40,3 +40,144 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Reset default list styles */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* src/App.css */
+
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+/* Add responsive styles */
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+}
+
+/* Add a subtle box-shadow to components */
+.box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add margin and padding to form inputs */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #2c3e50; /* Text color for labels */
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Style the Add Expense button */
+form button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Style the expense list */
+.ExpenseList {
+  padding: 0;
+}
+
+.ExpenseList li {
+  background-color: #ecf0f1;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.ExpenseList button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Styling for ExpenseForm */
+.ExpenseForm {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ecf0f1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ExpenseForm h2 {
+  color: #2c3e50;
+}
+
+.ExpenseForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ExpenseForm label {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ExpenseForm input {
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.ExpenseForm button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.ExpenseForm button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive styles for list items */
+@media (max-width: 600px) {
+  .ExpenseList li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ExpenseList button {
+    margin-top: 5px;
+  }
+}
