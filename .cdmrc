@@ -1,4 +1,4 @@
-tabs: ["src/App.jsx#6:6"]
+tabs: ["src/App.jsx#6:6","src/components/ExpenseList.jsx","src/components/ExpenseForm.jsx"]
 terminals: ["bun install && bun run dev"]
 playground-view: terminal-editor-browser
 run-button: bun run dev
